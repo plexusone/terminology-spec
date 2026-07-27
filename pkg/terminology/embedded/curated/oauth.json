@@ -1,0 +1,10 @@
+{
+  "id": "oauth",
+  "canonicalForm": "OAuth",
+  "category": "protocol-name",
+  "context": "Industry-standard authorization protocol. Commonly said as 'oh auth' — not spelled out letter by letter.",
+  "pronunciations": {
+    "en-US": "oh auth"
+  },
+  "translations": {}
+}

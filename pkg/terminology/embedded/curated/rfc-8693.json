@@ -1,0 +1,9 @@
+{
+  "id": "rfc-8693",
+  "canonicalForm": "RFC 8693",
+  "category": "standard-name",
+  "context": "IETF standard for OAuth 2.0 Token Exchange — trading one token for another, used by AAuth for the resource-managed and federated flows.",
+  "pronunciations": {
+    "en-US": "R F C eight six nine three"
+  }
+}

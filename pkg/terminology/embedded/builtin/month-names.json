@@ -1,0 +1,62 @@
+[
+  {
+    "id": "january",
+    "canonicalForm": "January",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "february",
+    "canonicalForm": "February",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "march",
+    "canonicalForm": "March",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "april",
+    "canonicalForm": "April",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "may",
+    "canonicalForm": "May",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "june",
+    "canonicalForm": "June",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "july",
+    "canonicalForm": "July",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "august",
+    "canonicalForm": "August",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "september",
+    "canonicalForm": "September",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "october",
+    "canonicalForm": "October",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "november",
+    "canonicalForm": "November",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "december",
+    "canonicalForm": "December",
+    "category": "generic-industry-term"
+  }
+]

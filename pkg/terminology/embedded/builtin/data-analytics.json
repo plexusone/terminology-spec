@@ -1,0 +1,42 @@
+[
+  {
+    "id": "sql",
+    "canonicalForm": "SQL",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "nosql",
+    "canonicalForm": "NoSQL",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "etl",
+    "canonicalForm": "ETL",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "elt",
+    "canonicalForm": "ELT",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "bi",
+    "canonicalForm": "BI",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "kpi",
+    "canonicalForm": "KPI",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "kpis",
+    "canonicalForm": "KPIs",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "roi",
+    "canonicalForm": "ROI",
+    "category": "generic-industry-term"
+  }
+]

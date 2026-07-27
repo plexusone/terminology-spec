@@ -1,0 +1,137 @@
+[
+  {
+    "id": "html",
+    "canonicalForm": "HTML",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "css",
+    "canonicalForm": "CSS",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "json",
+    "canonicalForm": "JSON",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "xml",
+    "canonicalForm": "XML",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "yaml",
+    "canonicalForm": "YAML",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "graphql",
+    "canonicalForm": "GraphQL",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "rest",
+    "canonicalForm": "REST",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "restful",
+    "canonicalForm": "RESTful",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "api",
+    "canonicalForm": "API",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "apis",
+    "canonicalForm": "APIs",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "sdk",
+    "canonicalForm": "SDK",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "sdks",
+    "canonicalForm": "SDKs",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "cli",
+    "canonicalForm": "CLI",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "gui",
+    "canonicalForm": "GUI",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "ui",
+    "canonicalForm": "UI",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "ux",
+    "canonicalForm": "UX",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "http",
+    "canonicalForm": "HTTP",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "https",
+    "canonicalForm": "HTTPS",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "url",
+    "canonicalForm": "URL",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "urls",
+    "canonicalForm": "URLs",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "uri",
+    "canonicalForm": "URI",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "oauth",
+    "canonicalForm": "OAuth",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "jwt",
+    "canonicalForm": "JWT",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "saml",
+    "canonicalForm": "SAML",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "sso",
+    "canonicalForm": "SSO",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "mfa",
+    "canonicalForm": "MFA",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "totp",
+    "canonicalForm": "TOTP",
+    "category": "generic-industry-term"
+  }
+]

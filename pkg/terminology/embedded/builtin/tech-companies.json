@@ -1,0 +1,142 @@
+[
+  {
+    "id": "google",
+    "canonicalForm": "Google",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "microsoft",
+    "canonicalForm": "Microsoft",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "amazon",
+    "canonicalForm": "Amazon",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "aws",
+    "canonicalForm": "AWS",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "meta",
+    "canonicalForm": "Meta",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "apple",
+    "canonicalForm": "Apple",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "nvidia",
+    "canonicalForm": "NVIDIA",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "intel",
+    "canonicalForm": "Intel",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "amd",
+    "canonicalForm": "AMD",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "ibm",
+    "canonicalForm": "IBM",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "oracle",
+    "canonicalForm": "Oracle",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "salesforce",
+    "canonicalForm": "Salesforce",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "slack",
+    "canonicalForm": "Slack",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "zoom",
+    "canonicalForm": "Zoom",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "notion",
+    "canonicalForm": "Notion",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "figma",
+    "canonicalForm": "Figma",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "vercel",
+    "canonicalForm": "Vercel",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "netlify",
+    "canonicalForm": "Netlify",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "cloudflare",
+    "canonicalForm": "Cloudflare",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "datadog",
+    "canonicalForm": "Datadog",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "splunk",
+    "canonicalForm": "Splunk",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "elastic",
+    "canonicalForm": "Elastic",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "mongodb",
+    "canonicalForm": "MongoDB",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "redis",
+    "canonicalForm": "Redis",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "postgres",
+    "canonicalForm": "Postgres",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "postgresql",
+    "canonicalForm": "PostgreSQL",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "mysql",
+    "canonicalForm": "MySQL",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "sqlite",
+    "canonicalForm": "SQLite",
+    "category": "generic-industry-term"
+  }
+]

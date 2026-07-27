@@ -1,0 +1,9 @@
+{
+  "id": "cnf",
+  "canonicalForm": "cnf",
+  "category": "jwt-claim",
+  "context": "The 'cnf' (confirmation) JWT claim, defined in RFC 7800 — binds a token to a key, the mechanism proof-of-possession tokens use instead of being a bare bearer token. Written lowercase, matching the actual claim name convention (like 'iss', 'sub', 'aud').",
+  "pronunciations": {
+    "en-US": "C N F"
+  }
+}

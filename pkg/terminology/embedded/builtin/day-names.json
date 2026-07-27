@@ -1,0 +1,37 @@
+[
+  {
+    "id": "monday",
+    "canonicalForm": "Monday",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "tuesday",
+    "canonicalForm": "Tuesday",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "wednesday",
+    "canonicalForm": "Wednesday",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "thursday",
+    "canonicalForm": "Thursday",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "friday",
+    "canonicalForm": "Friday",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "saturday",
+    "canonicalForm": "Saturday",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "sunday",
+    "canonicalForm": "Sunday",
+    "category": "generic-industry-term"
+  }
+]

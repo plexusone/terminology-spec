@@ -1,0 +1,112 @@
+[
+  {
+    "id": "react",
+    "canonicalForm": "React",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "reactjs",
+    "canonicalForm": "ReactJS",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "vue",
+    "canonicalForm": "Vue",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "vuejs",
+    "canonicalForm": "VueJS",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "angular",
+    "canonicalForm": "Angular",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "svelte",
+    "canonicalForm": "Svelte",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "nextjs",
+    "canonicalForm": "Next.js",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "next.js",
+    "canonicalForm": "Next.js",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "nuxt",
+    "canonicalForm": "Nuxt",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "nuxtjs",
+    "canonicalForm": "NuxtJS",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "express",
+    "canonicalForm": "Express",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "fastapi",
+    "canonicalForm": "FastAPI",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "django",
+    "canonicalForm": "Django",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "flask",
+    "canonicalForm": "Flask",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "rails",
+    "canonicalForm": "Rails",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "spring",
+    "canonicalForm": "Spring",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "springboot",
+    "canonicalForm": "Spring Boot",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "spring boot",
+    "canonicalForm": "Spring Boot",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "nodejs",
+    "canonicalForm": "Node.js",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "node.js",
+    "canonicalForm": "Node.js",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "deno",
+    "canonicalForm": "Deno",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "bun",
+    "canonicalForm": "Bun",
+    "category": "generic-industry-term"
+  }
+]

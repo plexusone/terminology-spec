@@ -1,0 +1,107 @@
+[
+  {
+    "id": "saas",
+    "canonicalForm": "SaaS",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "paas",
+    "canonicalForm": "PaaS",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "iaas",
+    "canonicalForm": "IaaS",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "vpc",
+    "canonicalForm": "VPC",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "cdn",
+    "canonicalForm": "CDN",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "dns",
+    "canonicalForm": "DNS",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "ssl",
+    "canonicalForm": "SSL",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "tls",
+    "canonicalForm": "TLS",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "tcp",
+    "canonicalForm": "TCP",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "ip",
+    "canonicalForm": "IP",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "cicd",
+    "canonicalForm": "CI/CD",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "ci/cd",
+    "canonicalForm": "CI/CD",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "devops",
+    "canonicalForm": "DevOps",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "devsecops",
+    "canonicalForm": "DevSecOps",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "sre",
+    "canonicalForm": "SRE",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "ec2",
+    "canonicalForm": "EC2",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "s3",
+    "canonicalForm": "S3",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "rds",
+    "canonicalForm": "RDS",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "lambda",
+    "canonicalForm": "Lambda",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "gcp",
+    "canonicalForm": "GCP",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "azure",
+    "canonicalForm": "Azure",
+    "category": "generic-industry-term"
+  }
+]

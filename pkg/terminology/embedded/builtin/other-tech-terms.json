@@ -1,0 +1,107 @@
+[
+  {
+    "id": "io",
+    "canonicalForm": "I/O",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "cpu",
+    "canonicalForm": "CPU",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "gpu",
+    "canonicalForm": "GPU",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "ram",
+    "canonicalForm": "RAM",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "ssd",
+    "canonicalForm": "SSD",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "hdd",
+    "canonicalForm": "HDD",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "os",
+    "canonicalForm": "OS",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "vm",
+    "canonicalForm": "VM",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "vms",
+    "canonicalForm": "VMs",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "pdf",
+    "canonicalForm": "PDF",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "csv",
+    "canonicalForm": "CSV",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "svg",
+    "canonicalForm": "SVG",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "png",
+    "canonicalForm": "PNG",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "jpg",
+    "canonicalForm": "JPG",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "jpeg",
+    "canonicalForm": "JPEG",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "gif",
+    "canonicalForm": "GIF",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "mp3",
+    "canonicalForm": "MP3",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "mp4",
+    "canonicalForm": "MP4",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "wav",
+    "canonicalForm": "WAV",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "webp",
+    "canonicalForm": "WebP",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "webm",
+    "canonicalForm": "WebM",
+    "category": "generic-industry-term"
+  }
+]

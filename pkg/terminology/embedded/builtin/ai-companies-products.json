@@ -1,0 +1,137 @@
+[
+  {
+    "id": "openai",
+    "canonicalForm": "OpenAI",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "chatgpt",
+    "canonicalForm": "ChatGPT",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "claude",
+    "canonicalForm": "Claude",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "claude code",
+    "canonicalForm": "Claude Code",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "anthropic",
+    "canonicalForm": "Anthropic",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "gemini",
+    "canonicalForm": "Gemini",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "copilot",
+    "canonicalForm": "Copilot",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "github copilot",
+    "canonicalForm": "GitHub Copilot",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "midjourney",
+    "canonicalForm": "Midjourney",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "dall-e",
+    "canonicalForm": "DALL-E",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "dalle",
+    "canonicalForm": "DALL-E",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "stable diffusion",
+    "canonicalForm": "Stable Diffusion",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "hugging face",
+    "canonicalForm": "Hugging Face",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "huggingface",
+    "canonicalForm": "HuggingFace",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "langchain",
+    "canonicalForm": "LangChain",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "llamaindex",
+    "canonicalForm": "LlamaIndex",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "llama",
+    "canonicalForm": "LLaMA",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "mistral",
+    "canonicalForm": "Mistral",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "deepseek",
+    "canonicalForm": "DeepSeek",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "perplexity",
+    "canonicalForm": "Perplexity",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "cursor",
+    "canonicalForm": "Cursor",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "windsurf",
+    "canonicalForm": "Windsurf",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "codeium",
+    "canonicalForm": "Codeium",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "tabnine",
+    "canonicalForm": "Tabnine",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "replit",
+    "canonicalForm": "Replit",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "v0",
+    "canonicalForm": "v0",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "bolt",
+    "canonicalForm": "Bolt",
+    "category": "generic-industry-term"
+  }
+]

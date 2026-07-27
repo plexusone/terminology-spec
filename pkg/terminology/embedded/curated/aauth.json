@@ -1,0 +1,12 @@
+{
+  "id": "aauth",
+  "canonicalForm": "AAuth",
+  "category": "protocol-name",
+  "scope": "aistandardsio",
+  "tags": ["aauth-deck"],
+  "context": "AAuth is an agent-identity, resource-access, and user-delegation protocol. It is a hard first 'A' — a distinct name, not a typo or shortening of OAuth.",
+  "pronunciations": {
+    "en-US": "ay auth"
+  },
+  "translations": {}
+}

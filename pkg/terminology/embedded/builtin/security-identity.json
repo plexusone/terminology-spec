@@ -1,0 +1,62 @@
+[
+  {
+    "id": "iam",
+    "canonicalForm": "IAM",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "rbac",
+    "canonicalForm": "RBAC",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "abac",
+    "canonicalForm": "ABAC",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "acl",
+    "canonicalForm": "ACL",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "pam",
+    "canonicalForm": "PAM",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "iga",
+    "canonicalForm": "IGA",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "siem",
+    "canonicalForm": "SIEM",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "soar",
+    "canonicalForm": "SOAR",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "xdr",
+    "canonicalForm": "XDR",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "edr",
+    "canonicalForm": "EDR",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "cve",
+    "canonicalForm": "CVE",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "owasp",
+    "canonicalForm": "OWASP",
+    "category": "generic-industry-term"
+  }
+]

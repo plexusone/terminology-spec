@@ -1,0 +1,82 @@
+[
+  {
+    "id": "javascript",
+    "canonicalForm": "JavaScript",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "typescript",
+    "canonicalForm": "TypeScript",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "python",
+    "canonicalForm": "Python",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "golang",
+    "canonicalForm": "Golang",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "rust",
+    "canonicalForm": "Rust",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "java",
+    "canonicalForm": "Java",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "kotlin",
+    "canonicalForm": "Kotlin",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "swift",
+    "canonicalForm": "Swift",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "c++",
+    "canonicalForm": "C++",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "c#",
+    "canonicalForm": "C#",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "ruby",
+    "canonicalForm": "Ruby",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "php",
+    "canonicalForm": "PHP",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "scala",
+    "canonicalForm": "Scala",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "haskell",
+    "canonicalForm": "Haskell",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "elixir",
+    "canonicalForm": "Elixir",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "clojure",
+    "canonicalForm": "Clojure",
+    "category": "generic-industry-term"
+  }
+]

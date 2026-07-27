@@ -1,0 +1,9 @@
+{
+  "id": "rfc-9421",
+  "canonicalForm": "RFC 9421",
+  "category": "standard-name",
+  "context": "IETF standard for HTTP Message Signatures — signs the method, path, and key headers of an HTTP request, with a content digest for bodies.",
+  "pronunciations": {
+    "en-US": "R F C nine four two one"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ai",
+  "canonicalForm": "AI",
+  "category": "acronym",
+  "context": "Artificial Intelligence. Observed pattern: stays 'AI' as a loanword in some languages, gets a genuinely translated acronym in others — this varies by locale and is never derived from the English spelling, only from real usage.",
+  "pronunciations": {
+    "en-US": "A I"
+  },
+  "translations": {
+    "fr-FR": {
+      "policy": "translate",
+      "text": "IA",
+      "notes": "PLACEHOLDER — confirm against the existing fr-FR videoascode voiceover translations before relying on this value."
+    },
+    "de-DE": {
+      "policy": "translate",
+      "text": "KI",
+      "notes": "PLACEHOLDER — not yet confirmed against a real translation; standard German abbreviation for Künstliche Intelligenz."
+    },
+    "zh-Hans": {
+      "policy": "preserve",
+      "notes": "PLACEHOLDER — confirm against the existing zh-Hans videoascode voiceover translations: does that translation keep 'AI' as a loanword or use 人工智能/AI's Chinese abbreviation?"
+    }
+  }
+}

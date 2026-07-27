@@ -1,0 +1,67 @@
+[
+  {
+    "id": "ai",
+    "canonicalForm": "AI",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "ml",
+    "canonicalForm": "ML",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "llm",
+    "canonicalForm": "LLM",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "llms",
+    "canonicalForm": "LLMs",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "gpt",
+    "canonicalForm": "GPT",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "nlp",
+    "canonicalForm": "NLP",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "rag",
+    "canonicalForm": "RAG",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "genai",
+    "canonicalForm": "GenAI",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "generative ai",
+    "canonicalForm": "Generative AI",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "machine learning",
+    "canonicalForm": "Machine Learning",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "deep learning",
+    "canonicalForm": "Deep Learning",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "neural network",
+    "canonicalForm": "Neural Network",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "neural networks",
+    "canonicalForm": "Neural Networks",
+    "category": "generic-industry-term"
+  }
+]

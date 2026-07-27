@@ -1,0 +1,9 @@
+{
+  "id": "jwks",
+  "canonicalForm": "JWKS",
+  "category": "acronym",
+  "context": "JSON Web Key Set — the published document of an identity's public keys, fetched by a verifier to check a signature.",
+  "pronunciations": {
+    "en-US": "J W K S"
+  }
+}

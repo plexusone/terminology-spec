@@ -1,0 +1,17 @@
+{
+  "id": "app",
+  "canonicalForm": "app",
+  "category": "common-word",
+  "context": "Short for 'application'. In Chinese (US usage observed), 'app' is pronounced as three spelled-out Latin letters rather than an approximated Mandarin reading — the spoken form must be authored explicitly per locale, never derived from the English spelling.",
+  "pronunciations": {
+    "en-US": "app",
+    "zh-Hans": "A P P",
+    "zh-Hant": "A P P"
+  },
+  "translations": {
+    "zh-Hans": {
+      "policy": "preserve",
+      "notes": "Written form stays the Latin 'app' even though it's spoken as spelled-out letters — pronunciation and written/translation policy are independent axes."
+    }
+  }
+}

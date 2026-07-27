@@ -1,0 +1,112 @@
+[
+  {
+    "id": "github",
+    "canonicalForm": "GitHub",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "gitlab",
+    "canonicalForm": "GitLab",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "bitbucket",
+    "canonicalForm": "Bitbucket",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "git",
+    "canonicalForm": "Git",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "docker",
+    "canonicalForm": "Docker",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "kubernetes",
+    "canonicalForm": "Kubernetes",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "k8s",
+    "canonicalForm": "K8s",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "terraform",
+    "canonicalForm": "Terraform",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "jenkins",
+    "canonicalForm": "Jenkins",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "circleci",
+    "canonicalForm": "CircleCI",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "travis",
+    "canonicalForm": "Travis",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "jira",
+    "canonicalForm": "Jira",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "confluence",
+    "canonicalForm": "Confluence",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "vscode",
+    "canonicalForm": "VSCode",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "vs code",
+    "canonicalForm": "VS Code",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "visual studio code",
+    "canonicalForm": "Visual Studio Code",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "intellij",
+    "canonicalForm": "IntelliJ",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "pycharm",
+    "canonicalForm": "PyCharm",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "webstorm",
+    "canonicalForm": "WebStorm",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "vim",
+    "canonicalForm": "Vim",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "neovim",
+    "canonicalForm": "Neovim",
+    "category": "generic-industry-term"
+  },
+  {
+    "id": "emacs",
+    "canonicalForm": "Emacs",
+    "category": "generic-industry-term"
+  }
+]

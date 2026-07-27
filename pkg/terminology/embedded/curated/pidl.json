@@ -1,0 +1,11 @@
+{
+  "id": "pidl",
+  "canonicalForm": "PIDL",
+  "category": "tool-name",
+  "scope": "aistandardsio",
+  "tags": ["aauth-deck"],
+  "context": "Protocol Interaction Description Language — the AAuth spec's format for describing message flows, used to generate the sequence diagrams in the deck so they stay in lockstep with the spec.",
+  "pronunciations": {
+    "en-US": "P I D L"
+  }
+}
