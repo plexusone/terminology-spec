@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io/fs"
 	"os"
-	"path/filepath"
+	"path"
 	"sort"
 )
 
@@ -32,27 +32,27 @@ func LoadFS(fsys fs.FS, dir string) ([]Term, error) {
 	var terms []Term
 	seen := map[string]string{} // id -> source file, to catch duplicate IDs
 	for _, entry := range entries {
-		if entry.IsDir() || filepath.Ext(entry.Name()) != ".json" {
+		if entry.IsDir() || path.Ext(entry.Name()) != ".json" {
 			continue
 		}
-		path := filepath.Join(dir, entry.Name())
-		b, err := fs.ReadFile(fsys, path)
+		filePath := path.Join(dir, entry.Name())
+		b, err := fs.ReadFile(fsys, filePath)
 		if err != nil {
-			return nil, fmt.Errorf("read %s: %w", path, err)
+			return nil, fmt.Errorf("read %s: %w", filePath, err)
 		}
 
 		fileTerms, err := parseTermsFile(b)
 		if err != nil {
-			return nil, fmt.Errorf("parse %s: %w", path, err)
+			return nil, fmt.Errorf("parse %s: %w", filePath, err)
 		}
 		for _, t := range fileTerms {
 			if t.ID == "" {
-				return nil, fmt.Errorf("%s: term missing required \"id\" field", path)
+				return nil, fmt.Errorf("%s: term missing required \"id\" field", filePath)
 			}
 			if prior, ok := seen[t.ID]; ok {
-				return nil, fmt.Errorf("duplicate term id %q in %s (already defined in %s)", t.ID, path, prior)
+				return nil, fmt.Errorf("duplicate term id %q in %s (already defined in %s)", t.ID, filePath, prior)
 			}
-			seen[t.ID] = path
+			seen[t.ID] = filePath
 			terms = append(terms, t)
 		}
 	}
