@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/plexusone/terminology-spec/pkg/terminology/term",
+  "$defs": {
+    "TranslationEntry": {
+      "properties": {
+        "policy": {
+          "type": "string",
+          "enum": [
+            "preserve",
+            "translate",
+            "transliterate",
+            "localized-name",
+            "context-dependent"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "description": "Text is the localized written form to use when Policy != preserve.\nLeft empty when Policy == preserve (canonicalForm is used as-is)."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Notes captures the human rationale/source for this override — e.g.\n\"matches the fr-FR videoascode voiceover translation\" — so later\nauthors can tell a deliberate call from a placeholder."
+        }
+      },
+      "additionalProperties": false,
+      "type": "object",
+      "required": [
+        "policy"
+      ],
+      "description": "TranslationEntry is the per-locale override of a term's translation behavior."
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "ID is a stable, lowercase-kebab slug, e.g. \"aauth\", \"oauth\", \"ai\"."
+    },
+    "canonicalForm": {
+      "type": "string",
+      "description": "CanonicalForm is the correct written form, e.g. \"AAuth\", \"OAuth\",\n\"AI\". This is also what feeds videoascode's subtitle case-correction\ndictionary (see ExportCaseDictionary): Aliases (lowercased) -\u003e this."
+    },
+    "aliases": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "description": "Aliases are alternate spellings/casings that should resolve to this\nterm, e.g. [\"A-Auth\"] for \"AAuth\". CanonicalForm's own lowercase form\nis always included implicitly — Aliases only needs the extras."
+    },
+    "category": {
+      "type": "string",
+      "description": "Category groups terms for filtering/scoping exports, e.g.\n\"standard-name\", \"protocol-name\", \"acronym\", \"common-word\"."
+    },
+    "scope": {
+      "type": "string",
+      "description": "Scope names the org/product this term belongs to, e.g.\n\"aistandardsio\", \"plexusone\", \"productbuildershq\" — useful once the\ncorpus spans many orgs and a consumer wants only its own terms."
+    },
+    "tags": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "description": "Tags are freeform, e.g. [\"aauth-deck\"], for narrower export filters\nthan Category/Scope allow."
+    },
+    "context": {
+      "type": "string",
+      "description": "Context is a human/LLM-facing gloss: what the term means, why it's\ndistinct from lookalikes (e.g. \"Not a typo of OAuth\"). Feeds any\nfuture LLM-context export and gives translators the disambiguation\nthey need before choosing a Translations override."
+    },
+    "pronunciations": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "type": "object",
+      "description": "Pronunciations maps BCP-47 locale -\u003e how the term should be spoken by\nTTS in that locale, e.g. {\"en-US\": \"ay auth\", \"zh-Hans\": \"A P P\"}.\nApplied only to text sent to a TTS provider; CanonicalForm is what\nappears in subtitles/manifests/UI regardless of Pronunciations."
+    },
+    "translations": {
+      "additionalProperties": {
+        "$ref": "#/$defs/TranslationEntry"
+      },
+      "type": "object",
+      "description": "Translations maps BCP-47 locale -\u003e the per-locale translation policy\nand, when applicable, the actual localized text. Absence of a locale\nkey means PolicyPreserve (use CanonicalForm as-is)."
+    }
+  },
+  "additionalProperties": false,
+  "type": "object",
+  "required": [
+    "id",
+    "canonicalForm"
+  ],
+  "title": "Term",
+  "description": "A canonical terminology-spec term: pronunciation, translation policy, and case-correction data for one concept/word/name, shared across TTS, subtitles, and localized text consumers."
+}
