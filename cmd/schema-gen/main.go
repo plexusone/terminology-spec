@@ -39,7 +39,7 @@ func run() error {
 	out = append(out, '\n')
 
 	const path = "schema/terminology.schema.json"
-	if err := os.WriteFile(path, out, 0o644); err != nil {
+	if err := os.WriteFile(path, out, 0o600); err != nil {
 		return fmt.Errorf("write %s: %w", path, err)
 	}
 	fmt.Println("wrote", path)

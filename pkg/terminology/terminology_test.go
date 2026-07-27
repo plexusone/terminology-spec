@@ -8,7 +8,7 @@ import (
 
 func writeTermFile(t *testing.T, dir, name, content string) {
 	t.Helper()
-	if err := os.WriteFile(filepath.Join(dir, name), []byte(content), 0o644); err != nil {
+	if err := os.WriteFile(filepath.Join(dir, name), []byte(content), 0o600); err != nil {
 		t.Fatalf("write %s: %v", name, err)
 	}
 }
