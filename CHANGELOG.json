@@ -1,0 +1,39 @@
+{
+  "irVersion": "1.0",
+  "project": "terminology-spec",
+  "repository": "https://github.com/plexusone/terminology-spec",
+  "versioning": "semver",
+  "commitConvention": "conventional",
+  "maintainers": ["johncwang@gmail.com"],
+  "releases": [
+    {
+      "version": "v0.1.0",
+      "date": "2026-07-26",
+      "commit": "4f0b77a",
+      "highlights": [
+        { "description": "Canonical term IR for consistent handling of proper nouns, acronyms, and standard names across TTS, subtitles, and localization" },
+        { "description": "247 embedded terms available as a Go dependency with no filesystem access" }
+      ],
+      "added": [
+        { "description": "`Term` struct with `id`, `canonicalForm`, `aliases`, `pronunciations`, `translations`, and metadata fields", "commit": "634963c" },
+        { "description": "`TranslationPolicy` enum: `preserve`, `translate`, `transliterate`, `localized-name`, `context-dependent`", "commit": "634963c" },
+        { "description": "`Builtin()` — load ~237 embedded generic-industry terms for case-correction", "commit": "634963c" },
+        { "description": "`Curated()` — load ~10 hand-authored canonical terms with real pronunciation/translation data", "commit": "634963c" },
+        { "description": "`All()` — Builtin merged with Curated (Curated wins on ID collision)", "commit": "634963c" },
+        { "description": "`LoadDir()` and `LoadFS()` for loading terms from project directories or embedded filesystems", "commit": "634963c" },
+        { "description": "`ExportPronunciationProfile()` — term → locale → spoken form for TTS providers", "commit": "634963c" },
+        { "description": "`ExportCaseDictionary()` — lowercase alias → canonical form for subtitle correction", "commit": "634963c" },
+        { "description": "`ExportTranslationMap()` — canonical form → translated form for a given locale", "commit": "634963c" },
+        { "description": "`Merge()` and `Filter()` utilities for combining and selecting terms", "commit": "634963c" },
+        { "description": "JSON schema at `schema/terminology.schema.json` generated from Go types", "commit": "636a91c" }
+      ],
+      "documentation": [
+        { "description": "README with installation, usage, term structure, translation policies, and consumer links", "commit": "4a830aa" },
+        { "description": "v0.1.0 release notes at `docs/releases/v0.1.0.md`", "commit": "4a830aa" }
+      ],
+      "tests": [
+        { "description": "Unit tests for `LoadDir`, `Merge`, `Filter`, and export functions", "commit": "634963c" }
+      ]
+    }
+  ]
+}
