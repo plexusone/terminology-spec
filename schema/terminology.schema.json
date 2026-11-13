@@ -73,6 +73,13 @@
       "type": "object",
       "description": "Pronunciations maps BCP-47 locale -\u003e how the term should be spoken by\nTTS in that locale, e.g. {\"en-US\": \"ay auth\", \"zh-Hans\": \"A P P\"}.\nApplied only to text sent to a TTS provider; CanonicalForm is what\nappears in subtitles/manifests/UI regardless of Pronunciations."
     },
+    "ipa": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "type": "object",
+      "description": "IPA maps BCP-47 locale -\u003e the term's pronunciation in the\nInternational Phonetic Alphabet, without slashes or brackets, e.g.\n{\"en-US\": \"lamborˈɡiːni\"} for \"Lamborghini\". Providers that accept\nphonemes (SSML \u003cphoneme alphabet=\"ipa\"\u003e, PLS lexicons) use it in\npreference to the respelling in Pronunciations, which remains the\nfallback for providers and models that read text only."
+    },
     "translations": {
       "additionalProperties": {
         "$ref": "#/$defs/TranslationEntry"
