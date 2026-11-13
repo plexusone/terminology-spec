@@ -7,6 +7,25 @@
   "maintainers": ["johncwang@gmail.com"],
   "releases": [
     {
+      "version": "v0.2.0",
+      "date": "2026-11-13",
+      "highlights": [
+        { "description": "Terms carry IPA per locale beside their respellings, for TTS providers that accept phonemes" }
+      ],
+      "added": [
+        { "description": "`Term.IPA` (`ipa` in JSON): BCP-47 locale → IPA pronunciation, used before the `pronunciations` respelling by providers that accept phonemes", "commit": "aff2a98" },
+        { "description": "`ExportIPAProfile()` — term → locale → IPA, the phoneme counterpart of `ExportPronunciationProfile()`, with aliases as keys", "commit": "aff2a98" },
+        { "description": "`ipa` property in `schema/terminology.schema.json`", "commit": "aff2a98" }
+      ],
+      "documentation": [
+        { "description": "README describes the `ipa` field and `ExportIPAProfile()`", "commit": "41b1571" },
+        { "description": "v0.2.0 release notes" }
+      ],
+      "tests": [
+        { "description": "`ExportIPAProfile()` with aliases and with terms without IPA", "commit": "aff2a98" }
+      ]
+    },
+    {
       "version": "v0.1.0",
       "date": "2026-07-26",
       "commit": "4f0b77a",
