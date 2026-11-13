@@ -111,6 +111,24 @@ func TestExportPronunciationProfile(t *testing.T) {
 	}
 }
 
+func TestExportIPAProfile(t *testing.T) {
+	terms := []Term{
+		{ID: "lamborghini", CanonicalForm: "Lamborghini", Aliases: []string{"Lambo"}, IPA: map[string]string{"en-US": "lamborˈɡiːni"}},
+		{ID: "aauth", CanonicalForm: "AAuth", Pronunciations: map[string]string{"en-US": "ay auth"}},
+	}
+	profile := ExportIPAProfile(terms)
+
+	if profile["Lamborghini"]["en-US"] != "lamborˈɡiːni" {
+		t.Errorf(`profile["Lamborghini"]["en-US"] = %q`, profile["Lamborghini"]["en-US"])
+	}
+	if profile["Lambo"]["en-US"] != "lamborˈɡiːni" {
+		t.Error("alias should map to the same IPA table")
+	}
+	if _, ok := profile["AAuth"]; ok {
+		t.Error("terms with no IPA should not appear in the profile")
+	}
+}
+
 func TestExportCaseDictionary(t *testing.T) {
 	terms := []Term{{ID: "aauth", CanonicalForm: "AAuth", Aliases: []string{"A-Auth"}}}
 	dict := ExportCaseDictionary("test", "1.0", terms)

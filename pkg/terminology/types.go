@@ -84,6 +84,13 @@ type Term struct {
 	// Applied only to text sent to a TTS provider; CanonicalForm is what
 	// appears in subtitles/manifests/UI regardless of Pronunciations.
 	Pronunciations map[string]string `json:"pronunciations,omitempty"`
+	// IPA maps BCP-47 locale -> the term's pronunciation in the
+	// International Phonetic Alphabet, without slashes or brackets, e.g.
+	// {"en-US": "lamborˈɡiːni"} for "Lamborghini". Providers that accept
+	// phonemes (SSML <phoneme alphabet="ipa">, PLS lexicons) use it in
+	// preference to the respelling in Pronunciations, which remains the
+	// fallback for providers and models that read text only.
+	IPA map[string]string `json:"ipa,omitempty"`
 	// Translations maps BCP-47 locale -> the per-locale translation policy
 	// and, when applicable, the actual localized text. Absence of a locale
 	// key means PolicyPreserve (use CanonicalForm as-is).
