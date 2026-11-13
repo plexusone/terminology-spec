@@ -73,6 +73,7 @@ custom, _ := terminology.LoadDir("terms")
 | Export | Use case |
 |--------|----------|
 | `ExportPronunciationProfile(terms)` | videoascode `VideoConfig.Pronunciations` — term → locale → spoken form, applied before TTS |
+| `ExportIPAProfile(terms)` | term → locale → IPA, for providers that accept phonemes |
 | `ExportCaseDictionary(terms)` | Subtitle case-correction — lowercase alias → canonical form |
 | `ExportTranslationMap(terms, locale)` | Localization — canonical form → translated form for a given locale |
 
@@ -102,6 +103,7 @@ custom, _ := terminology.LoadDir("terms")
 | `category` | Grouping: `protocol-name`, `acronym`, `common-word`, etc. |
 | `scope` | Org/product owner: `aistandardsio`, `plexusone`, etc. |
 | `pronunciations` | BCP-47 locale → how TTS should say it |
+| `ipa` | BCP-47 locale → IPA, used before `pronunciations` by providers that accept phonemes |
 | `translations` | BCP-47 locale → translation policy + localized text |
 
 ## Translation policies
